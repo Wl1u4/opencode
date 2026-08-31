@@ -9,3 +9,6 @@ packages/sdk/js/tsconfig.tsbuildinfo
 test-results/.last-run.json
 coverage-html/
 coverage/
+*.gcov.html
+index-sort-f.html
+index-sort-l.html
