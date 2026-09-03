@@ -1,5 +1,5 @@
 {
   "name": "opencode",
   "image": "oven/bun:1",
-  "postCreateCommand": "apt-get update && apt-get install -y git python3 make g++ && bun --version"
+  "postCreateCommand": "apt-get update && apt-get install -y git python3 make g++ curl xz-utils && curl https://qlty.sh | bash && bun --version"
 }
